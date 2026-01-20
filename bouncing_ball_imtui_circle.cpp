@@ -1,15 +1,16 @@
 #include <imtui/imtui.h>
 #include <imtui/imtui-impl-ncurses.h>
 #include <ctime>
+#include <cstdlib>
 
 using namespace ImGui;
 
 float ball_x = 0.0f, ball_y = 0.0f;
 float ball_vel_x = 1.0f, ball_vel_y = 1.0f;
 
-constexpr float WIDTH = 60.0f;
-constexpr float HEIGHT = 30.0f;
-constexpr float RADIUS = 1.2;
+constexpr float WIDTH = 71.0f;
+constexpr float HEIGHT = 31.0f;
+constexpr float RADIUS = 1;
 
 void init_ball() {
     ball_x = rand() % (int)WIDTH;
@@ -24,29 +25,27 @@ void update_ball() {
     ball_x += ball_vel_x;
     ball_y += ball_vel_y;
 
-    // Bounce off horizontal walls
-    if (ball_x  <= 0.0f || ball_x + RADIUS >= WIDTH) {
+    // Detect collision with horizontal left and right walls 
+    if (ball_x  <= RADIUS || ball_x + RADIUS >= WIDTH) {
         ball_vel_x = -ball_vel_x;
-        // ball_x = (ball_x - RADIUS <= 0.0f) ? RADIUS : WIDTH - RADIUS;
     }
 
-    // Bounce off vertical walls
-    if (ball_y <= 0.0f || ball_y + RADIUS >= HEIGHT) {
+    // Detect collision with top and bottom walls
+    if (ball_y <= RADIUS|| ball_y + RADIUS >= HEIGHT) {
         ball_vel_y = -ball_vel_y;
-        // ball_y = (ball_y - RADIUS <= 0.0f) ? RADIUS : HEIGHT - RADIUS;
     }
 }
 
 void draw_ball(ImDrawList* draw_list, ImVec2 canvas_pos) {
+    // compute the center according to the global coordinates
     ImVec2 ball_center = ImVec2(canvas_pos.x + ball_x, 
                                 canvas_pos.y + ball_y);
-    draw_list->AddRectFilled(ball_center, 
-        ImVec2(ball_center.x + RADIUS, ball_center.y + RADIUS), 
+
+    draw_list->AddCircleFilled(ball_center, RADIUS, 
         IM_COL32(0, 255, 0, 255));
 }
 
-// Function to render the game area
-// Returns true if we should exit
+// Render the game area. Returns true if we should exit
 bool render_game() {
     SetNextWindowPos(ImVec2(2, 2), ImGuiCond_Once);
     SetNextWindowSize(ImVec2(WIDTH , HEIGHT + 10), ImGuiCond_Once);
@@ -60,10 +59,6 @@ bool render_game() {
     
     
     draw_ball(draw_list, canvas_pos);
-
-    
-    // Reserve space for the canvas
-    Dummy(canvas_size);
     
     // Display info
     Text("Position: (%.1f, %.1f)", ball_x, ball_y);

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/imtui-impl-text.cpp" "imtui/src/CMakeFiles/imtui.dir/imtui-impl-text.cpp.o" "gcc" "imtui/src/CMakeFiles/imtui.dir/imtui-impl-text.cpp.o.d"
+  "/workspaces/c52-src/imtui/src/imtui-impl-text.cpp" "imtui/src/CMakeFiles/imtui.dir/imtui-impl-text.cpp.o" "gcc" "imtui/src/CMakeFiles/imtui.dir/imtui-impl-text.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

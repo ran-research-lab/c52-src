@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/bouncing_ball_imtui_circle.cpp" "CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o" "gcc" "CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o.d"
+  "/workspaces/c52-src/bouncing_ball_imtui_circle.cpp" "CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o" "gcc" "CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
