@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/cmake_install.cmake",
+		"/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/cmake_install.cmake",
+		"/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/cmake_install.cmake",
+		"/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

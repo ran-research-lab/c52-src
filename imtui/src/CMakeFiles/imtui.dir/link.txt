@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimtui.a "CMakeFiles/imtui.dir/imtui-impl-text.cpp.o"
+/usr/bin/ranlib libimtui.a

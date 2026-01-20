@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimtui-ncurses.a "CMakeFiles/imtui-ncurses.dir/imtui-impl-ncurses.cpp.o"
+/usr/bin/ranlib libimtui-ncurses.a

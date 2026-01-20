@@ -1,0 +1,14 @@
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/CMakeFiles/hello_imtui.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/CMakeFiles/bouncing_ball_imtui.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/CMakeFiles/bouncing_ball_imtui_circle.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/CMakeFiles/edit_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/CMakeFiles/rebuild_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/CMakeFiles/edit_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/CMakeFiles/rebuild_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/CMakeFiles/imgui-for-imtui.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/CMakeFiles/edit_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/CMakeFiles/rebuild_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/CMakeFiles/imtui.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/CMakeFiles/imtui-ncurses.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/CMakeFiles/edit_cache.dir
+/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/CMakeFiles/rebuild_cache.dir

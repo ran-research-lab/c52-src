@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -o CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui.cpp",
+  "output": "imtui/third-party/CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -o CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_draw.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_draw.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_draw.cpp",
+  "output": "imtui/third-party/CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -o CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_demo.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_demo.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_demo.cpp",
+  "output": "imtui/third-party/CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -o CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_widgets.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_widgets.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_widgets.cpp",
+  "output": "imtui/third-party/CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -o CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_tables.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_tables.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui/imgui/imgui_tables.cpp",
+  "output": "imtui/third-party/CMakeFiles/imgui-for-imtui.dir/imgui/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/../include -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui -O3 -DNDEBUG -std=gnu++11 -arch arm64 -o CMakeFiles/imtui.dir/imtui-impl-text.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/imtui-impl-text.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/imtui-impl-text.cpp",
+  "output": "imtui/src/CMakeFiles/imtui.dir/imtui-impl-text.cpp.o"
+},
+{
+  "directory": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src",
+  "command": "/usr/bin/c++  -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/../include -I/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/third-party/imgui -O3 -DNDEBUG -std=gnu++11 -arch arm64 -o CMakeFiles/imtui-ncurses.dir/imtui-impl-ncurses.cpp.o -c /Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/imtui-impl-ncurses.cpp",
+  "file": "/Users/rafaelarce/Library/CloudStorage/Box-Box/uprrp/cursos/ccom3034/c52/src/imtui/src/imtui-impl-ncurses.cpp",
+  "output": "imtui/src/CMakeFiles/imtui-ncurses.dir/imtui-impl-ncurses.cpp.o"
+}
+]
