@@ -130,30 +130,30 @@ hello_imtui/fast:
 .PHONY : hello_imtui/fast
 
 #=============================================================================
-# Target rules for targets named bouncing_ball_imtui
+# Target rules for targets named bb-pop
 
 # Build rule for target.
-bouncing_ball_imtui: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bouncing_ball_imtui
-.PHONY : bouncing_ball_imtui
+bb-pop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bb-pop
+.PHONY : bb-pop
 
 # fast build rule for target.
-bouncing_ball_imtui/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui.dir/build.make CMakeFiles/bouncing_ball_imtui.dir/build
-.PHONY : bouncing_ball_imtui/fast
+bb-pop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-pop.dir/build.make CMakeFiles/bb-pop.dir/build
+.PHONY : bb-pop/fast
 
 #=============================================================================
-# Target rules for targets named bouncing_ball_imtui_circle
+# Target rules for targets named bb-oop
 
 # Build rule for target.
-bouncing_ball_imtui_circle: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bouncing_ball_imtui_circle
-.PHONY : bouncing_ball_imtui_circle
+bb-oop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bb-oop
+.PHONY : bb-oop
 
 # fast build rule for target.
-bouncing_ball_imtui_circle/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui_circle.dir/build.make CMakeFiles/bouncing_ball_imtui_circle.dir/build
-.PHONY : bouncing_ball_imtui_circle/fast
+bb-oop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-oop.dir/build.make CMakeFiles/bb-oop.dir/build
+.PHONY : bb-oop/fast
 
 #=============================================================================
 # Target rules for targets named imgui-for-imtui
@@ -194,53 +194,53 @@ imtui-ncurses/fast:
 	$(MAKE) $(MAKESILENT) -f imtui/src/CMakeFiles/imtui-ncurses.dir/build.make imtui/src/CMakeFiles/imtui-ncurses.dir/build
 .PHONY : imtui-ncurses/fast
 
-bouncing_ball_imtui.o: bouncing_ball_imtui.cpp.o
-.PHONY : bouncing_ball_imtui.o
+bb-oop.o: bb-oop.cpp.o
+.PHONY : bb-oop.o
 
 # target to build an object file
-bouncing_ball_imtui.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui.dir/build.make CMakeFiles/bouncing_ball_imtui.dir/bouncing_ball_imtui.cpp.o
-.PHONY : bouncing_ball_imtui.cpp.o
+bb-oop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-oop.dir/build.make CMakeFiles/bb-oop.dir/bb-oop.cpp.o
+.PHONY : bb-oop.cpp.o
 
-bouncing_ball_imtui.i: bouncing_ball_imtui.cpp.i
-.PHONY : bouncing_ball_imtui.i
+bb-oop.i: bb-oop.cpp.i
+.PHONY : bb-oop.i
 
 # target to preprocess a source file
-bouncing_ball_imtui.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui.dir/build.make CMakeFiles/bouncing_ball_imtui.dir/bouncing_ball_imtui.cpp.i
-.PHONY : bouncing_ball_imtui.cpp.i
+bb-oop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-oop.dir/build.make CMakeFiles/bb-oop.dir/bb-oop.cpp.i
+.PHONY : bb-oop.cpp.i
 
-bouncing_ball_imtui.s: bouncing_ball_imtui.cpp.s
-.PHONY : bouncing_ball_imtui.s
+bb-oop.s: bb-oop.cpp.s
+.PHONY : bb-oop.s
 
 # target to generate assembly for a file
-bouncing_ball_imtui.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui.dir/build.make CMakeFiles/bouncing_ball_imtui.dir/bouncing_ball_imtui.cpp.s
-.PHONY : bouncing_ball_imtui.cpp.s
+bb-oop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-oop.dir/build.make CMakeFiles/bb-oop.dir/bb-oop.cpp.s
+.PHONY : bb-oop.cpp.s
 
-bouncing_ball_imtui_circle.o: bouncing_ball_imtui_circle.cpp.o
-.PHONY : bouncing_ball_imtui_circle.o
+bb-pop.o: bb-pop.cpp.o
+.PHONY : bb-pop.o
 
 # target to build an object file
-bouncing_ball_imtui_circle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui_circle.dir/build.make CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o
-.PHONY : bouncing_ball_imtui_circle.cpp.o
+bb-pop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-pop.dir/build.make CMakeFiles/bb-pop.dir/bb-pop.cpp.o
+.PHONY : bb-pop.cpp.o
 
-bouncing_ball_imtui_circle.i: bouncing_ball_imtui_circle.cpp.i
-.PHONY : bouncing_ball_imtui_circle.i
+bb-pop.i: bb-pop.cpp.i
+.PHONY : bb-pop.i
 
 # target to preprocess a source file
-bouncing_ball_imtui_circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui_circle.dir/build.make CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.i
-.PHONY : bouncing_ball_imtui_circle.cpp.i
+bb-pop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-pop.dir/build.make CMakeFiles/bb-pop.dir/bb-pop.cpp.i
+.PHONY : bb-pop.cpp.i
 
-bouncing_ball_imtui_circle.s: bouncing_ball_imtui_circle.cpp.s
-.PHONY : bouncing_ball_imtui_circle.s
+bb-pop.s: bb-pop.cpp.s
+.PHONY : bb-pop.s
 
 # target to generate assembly for a file
-bouncing_ball_imtui_circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bouncing_ball_imtui_circle.dir/build.make CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.s
-.PHONY : bouncing_ball_imtui_circle.cpp.s
+bb-pop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bb-pop.dir/build.make CMakeFiles/bb-pop.dir/bb-pop.cpp.s
+.PHONY : bb-pop.cpp.s
 
 hello_imtui.o: hello_imtui.cpp.o
 .PHONY : hello_imtui.o
@@ -274,18 +274,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... bouncing_ball_imtui"
-	@echo "... bouncing_ball_imtui_circle"
+	@echo "... bb-oop"
+	@echo "... bb-pop"
 	@echo "... hello_imtui"
 	@echo "... imgui-for-imtui"
 	@echo "... imtui"
 	@echo "... imtui-ncurses"
-	@echo "... bouncing_ball_imtui.o"
-	@echo "... bouncing_ball_imtui.i"
-	@echo "... bouncing_ball_imtui.s"
-	@echo "... bouncing_ball_imtui_circle.o"
-	@echo "... bouncing_ball_imtui_circle.i"
-	@echo "... bouncing_ball_imtui_circle.s"
+	@echo "... bb-oop.o"
+	@echo "... bb-oop.i"
+	@echo "... bb-oop.s"
+	@echo "... bb-pop.o"
+	@echo "... bb-pop.i"
+	@echo "... bb-pop.s"
 	@echo "... hello_imtui.o"
 	@echo "... hello_imtui.i"
 	@echo "... hello_imtui.s"

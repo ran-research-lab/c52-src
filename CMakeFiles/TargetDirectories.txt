@@ -1,6 +1,6 @@
 /workspaces/c52-src/CMakeFiles/hello_imtui.dir
-/workspaces/c52-src/CMakeFiles/bouncing_ball_imtui.dir
-/workspaces/c52-src/CMakeFiles/bouncing_ball_imtui_circle.dir
+/workspaces/c52-src/CMakeFiles/bb-pop.dir
+/workspaces/c52-src/CMakeFiles/bb-oop.dir
 /workspaces/c52-src/CMakeFiles/edit_cache.dir
 /workspaces/c52-src/CMakeFiles/rebuild_cache.dir
 /workspaces/c52-src/imtui/CMakeFiles/edit_cache.dir

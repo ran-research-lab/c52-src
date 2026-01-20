@@ -1,5 +1,4 @@
-CMakeFiles/bouncing_ball_imtui_circle.dir/bouncing_ball_imtui_circle.cpp.o: \
- /workspaces/c52-src/bouncing_ball_imtui_circle.cpp \
+CMakeFiles/bb-oop.dir/bb-oop.cpp.o: /workspaces/c52-src/bb-oop.cpp \
  /usr/include/stdc-predef.h \
  /workspaces/c52-src/imtui/src/../include/imtui/imtui.h \
  /workspaces/c52-src/imtui/third-party/imgui/imgui/imgui.h \

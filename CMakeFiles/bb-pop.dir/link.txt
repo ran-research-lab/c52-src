@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/bb-pop.dir/bb-pop.cpp.o" -o bb-pop  imtui/src/libimtui.a imtui/src/libimtui-ncurses.a -lcurses /usr/lib/x86_64-linux-gnu/libform.so imtui/src/libimtui.a imtui/third-party/libimgui-for-imtui.a -ldl 

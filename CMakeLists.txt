@@ -37,50 +37,52 @@ target_include_directories(hello_imtui
         ${CMAKE_SOURCE_DIR}/imtui/third-party/imgui/imgui
 )
 
-# -----------------------------
-# Bouncing Ball Target
-# -----------------------------
-add_executable(bouncing_ball_imtui
-    bouncing_ball_imtui.cpp
-)
-
-target_link_libraries(bouncing_ball_imtui
-    PRIVATE
-        imtui
-        imtui-ncurses
-        ${CURSES_LIBRARIES}
-)
-
-target_include_directories(bouncing_ball_imtui
-    PRIVATE
-        ${CURSES_INCLUDE_DIR}
-)
-
-target_include_directories(bouncing_ball_imtui
-    PRIVATE
-        ${CMAKE_SOURCE_DIR}/imtui/third-party/imgui/imgui
-)
 
 # -----------------------------
 # Bouncing Ball Circle Target
 # -----------------------------
-add_executable(bouncing_ball_imtui_circle
-    bouncing_ball_imtui_circle.cpp
+add_executable(bb-pop
+    bb-pop.cpp
 )
 
-target_link_libraries(bouncing_ball_imtui_circle
+target_link_libraries(bb-pop
     PRIVATE
         imtui
         imtui-ncurses
         ${CURSES_LIBRARIES}
 )
 
-target_include_directories(bouncing_ball_imtui_circle
+target_include_directories(bb-pop
     PRIVATE
         ${CURSES_INCLUDE_DIR}
 )
 
-target_include_directories(bouncing_ball_imtui_circle
+target_include_directories(bb-pop
+    PRIVATE
+        ${CMAKE_SOURCE_DIR}/imtui/third-party/imgui/imgui
+)
+
+
+# -----------------------------
+# Bouncing Ball Circle Target
+# -----------------------------
+add_executable(bb-oop
+    bb-oop.cpp
+)
+
+target_link_libraries(bb-oop
+    PRIVATE
+        imtui
+        imtui-ncurses
+        ${CURSES_LIBRARIES}
+)
+
+target_include_directories(bb-oop
+    PRIVATE
+        ${CURSES_INCLUDE_DIR}
+)
+
+target_include_directories(bb-oop
     PRIVATE
         ${CMAKE_SOURCE_DIR}/imtui/third-party/imgui/imgui
 )
