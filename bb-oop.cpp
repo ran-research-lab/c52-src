@@ -7,25 +7,25 @@
 
 using namespace ImGui;
 
+
 constexpr float WIDTH = 71.0f;
 constexpr float HEIGHT = 31.0f;
 constexpr float RADIUS = 3;
 
-
-
 class Ball {
+private:
+    float x, y;
+    float vel_x, vel_y;
 public:
-    float x = 0.0f, y = 0.0f;
-float vel_x = 1.0f, vel_y = 1.0f;
-public: 
- Ball() {
-    x = rand() % (int)WIDTH;
-    y = rand() % (int)HEIGHT;
-    vel_x = rand() % 3 + 1;
-    vel_y = rand() % 3 + 1;
-}
-
-// Function to update ball position and handle bouncing
+    Ball() {
+        x = rand() % (int)(WIDTH/2);
+        y = rand() % (int)(HEIGHT/2);
+        vel_x = rand() % 3 + 1;
+        vel_y = rand() % 3 + 1;        
+    }
+    float getX() { return x;}
+    
+    // Function to update ball position and handle bouncing
     void update() {
         // Update position
         x += vel_x;
@@ -34,22 +34,25 @@ public:
         // Detect collision with horizontal left and right walls 
         if (x  <= RADIUS || x + RADIUS >= WIDTH - 1) {
             vel_x = -vel_x;
-            // x = (x <= RADIUS) ? RADIUS : WIDTH - RADIUS - 2;
+            x = (x <= RADIUS) ? RADIUS : WIDTH - RADIUS -1;
         }
 
         // Detect collision with top and bottom walls
         if (y <= RADIUS|| y + RADIUS >= HEIGHT) {
             vel_y = -vel_y;
+            y = (y <= RADIUS) ? RADIUS : HEIGHT - RADIUS - 1;
         }
     }
-void draw(ImDrawList* draw_list, ImVec2 canvas_pos) const {
-    // compute the center according to the global coordinates
-    ImVec2 center = ImVec2(canvas_pos.x + x, 
-                                canvas_pos.y + y);
+    void draw(ImDrawList* draw_list, ImVec2 canvas_pos) {
+        // compute the center according to the global coordinates
+        ImVec2 ball_center = ImVec2(canvas_pos.x + x, 
+                                    canvas_pos.y + y);
 
-    draw_list->AddCircleFilled(center, RADIUS, 
-        IM_COL32(0, 255, 0, 255));
-}
+        draw_list->AddCircleFilled(ball_center, RADIUS, 
+            IM_COL32(255, 255, 0, 255));
+    }
+
+
 };
 
 
@@ -59,7 +62,7 @@ void draw(ImDrawList* draw_list, ImVec2 canvas_pos) const {
 
 
 // Render the game area. Returns true if we should exit
-bool render_game(const Ball &b) {
+bool render_game(Ball &b) {
     SetNextWindowPos(ImVec2(2, 2), ImGuiCond_Once);
     SetNextWindowSize(ImVec2(WIDTH , HEIGHT + 10), ImGuiCond_Once);
     
@@ -93,14 +96,14 @@ bool render_game(const Ball &b) {
 int main() {
     srand(time(NULL));
 
-    Ball b;
     IMGUI_CHECKVERSION();
     CreateContext();
 
     auto screen = ImTui_ImplNcurses_Init(true);
     ImTui_ImplText_Init();
 
-    // init_ball();
+    //init_ball();
+    Ball b;
 
     bool should_exit = false;
     while (!should_exit) {
@@ -115,7 +118,7 @@ int main() {
 
         Render();
         
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
         ImTui_ImplText_RenderDrawData(GetDrawData(), screen);
         ImTui_ImplNcurses_DrawScreen();

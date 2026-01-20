@@ -15,8 +15,8 @@ constexpr float HEIGHT = 31.0f;
 constexpr float RADIUS = 3;
 
 void init_ball() {
-    ball_x = rand() % (int)WIDTH;
-    ball_y = rand() % (int)HEIGHT;
+    ball_x = rand() % (int)(WIDTH/2);
+    ball_y = rand() % (int)(HEIGHT/2);
     ball_vel_x = rand() % 3 + 1;
     ball_vel_y = rand() % 3 + 1;
 }
@@ -45,7 +45,7 @@ void draw_ball(ImDrawList* draw_list, ImVec2 canvas_pos) {
                                 canvas_pos.y + ball_y);
 
     draw_list->AddCircleFilled(ball_center, RADIUS, 
-        IM_COL32(0, 255, 0, 255));
+        IM_COL32(255, 255, 0, 255));
 }
 
 // Render the game area. Returns true if we should exit
@@ -104,7 +104,7 @@ int main() {
 
         Render();
         
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
 
         ImTui_ImplText_RenderDrawData(GetDrawData(), screen);
         ImTui_ImplNcurses_DrawScreen();
